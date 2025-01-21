@@ -9,7 +9,7 @@ public class BearController : MonoBehaviour
 	private FixedJoystick fixedJoystick;
 	private Rigidbody rigidBody;
 
-	private void onEnabled()
+	private void OnEnabled()
 	{
 		fixedJoystick = FindObjectOfType<FixedJoystick>();
 		rigidBody = gameObject.GetComponent<Rigidbody>();
